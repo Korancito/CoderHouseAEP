@@ -1,4 +1,4 @@
-Proyecto Final – Pre Entrega #1 
+Proyecto Final – Pre Entrega #2
 Autor: Francisco Gabriel Borgno Larroque
 Curso: [Prompt Engineering]
 Comisión: [Nº 84180]
