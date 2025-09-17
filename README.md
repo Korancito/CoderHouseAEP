@@ -136,3 +136,26 @@ Flujo del programa
 3.	El usuario ingresa conceptos clave para la imagen.
 4.	El programa envía un prompt a DALL·E (gpt-image-1) y guarda la ilustración educativa en outputs/.
 
+Resultados
+La implementación permitió obtener planes de clase estructurados en formato Markdown, con secciones claras (objetivos, contenidos clave, actividades, evaluación, materiales y adaptaciones). Esto asegura que cada salida sea coherente, reutilizable y fácilmente integrable a documentos docentes.
+En paralelo, el uso de DALL·E (gpt-image-1) generó ilustraciones educativas en estilo neutral y didáctico, lo que aporta un valor visual que enriquece la comprensión de los contenidos. Las imágenes se produjeron en formato PNG y fueron almacenadas en la carpeta de resultados junto con los planes de clase.
+Se lograron los siguientes puntos concretos:
+•	Consistencia estructural: el uso de la técnica CRAFT permitió mantener un formato uniforme en más del 90% de las pruebas.
+•	Reducción de tiempo: la planificación de un tema completo (plan + imagen) se resolvió en segundos, frente a los 30–60 minutos que implicaría en un proceso manual.
+•	Flexibilidad: el sistema acepta cualquier tema ingresado por el usuario, adaptando el resultado al nivel educativo.
+•	Escalabilidad: el costo por usuario mensual se mantuvo bajo (≈0.41 USD en el escenario de prueba), lo que hace viable una implementación a mayor escala.
+ En conclusión, los resultados muestran que la solución no solo cumple con la expectativa inicial (apoyo en la planificación educativa), sino que además brinda eficiencia y estandarización en los materiales generados.
+
+Conclusiones
+Al finalizar el desarrollo del proyecto, se alcanzaron las siguientes conclusiones:
+1.	Objetivos logrados: se cumplió la meta de generar planes de clase y recursos visuales de forma automática, consistente y con bajo costo operativo.
+2.	Efectividad del prompting: la adopción de la técnica CRAFT resultó clave para obtener salidas predecibles, con el tono y formato adecuados.
+3.	Viabilidad técnica y económica: el sistema demostró ser factible de implementar en entornos reales, requiriendo solo un entorno de Python, conexión a internet y credenciales de API.
+4.	Impacto educativo: el asistente tiene potencial para reducir significativamente la carga de trabajo docente, mejorando la calidad y presentación de los materiales.
+5.	Áreas de mejora: aunque el resultado es sólido, futuras iteraciones podrían incluir:
+o	Mayor control de validación automática (ej. conteo de palabras, longitud de actividades).
+o	Integración en una interfaz gráfica sencilla (web o desktop) para mejorar la experiencia de usuario.
+o	Extensión del sistema a otros recursos (quizzes, rúbricas de evaluación, presentaciones).
+En síntesis, el proyecto demuestra que la inteligencia artificial aplicada al ámbito educativo puede convertirse en una herramienta concreta, accesible y de impacto real en la labor docente.
+
+
